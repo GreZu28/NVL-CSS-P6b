@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Práctica de Selectores II</title>
+    <style>
+        div > p {
+            border: 2px solid #fabada;
+        }
+        
+        p.importante ~ p {
+            color: red;
+        } 
+    </style>
+</head>
+<body>
+    <div>
+        <p class="importante">Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+
+</body>
+</html>
